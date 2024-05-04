@@ -1,0 +1,12 @@
+footer {
+    position: fixed;
+    top: 35%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+footer img {
+    width: 42px;
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "SoDoSans";
+    src: url('../font/SoDoSans-Regular.ttf') format('truetype');
+}
+
+:root {
+    --white: #FFFDFF;
+    --black: #333234;
+    --green: #057046
+}
+
+body {
+    font-family: 'SoDoSans', Courier, monospace;
+    color: var(--black);
+}

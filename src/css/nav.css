@@ -1,0 +1,20 @@
+header .logo-starbucks img {
+    width: 70px;
+}
+
+header {
+    width: 100%;
+    padding: 1em 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+}

@@ -1,0 +1,8 @@
+.right-side .circle {
+    width: 600px;
+    height: 600px;
+    background: var(--green);
+    z-index: -1;
+    position: fixed;
+    border-radius: 100%;
+}
