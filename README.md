@@ -6,7 +6,7 @@
 ## 🛸 O Projeto
 <img height="200" src="" alt="gif" />
 
-<blockquote>Uma IA pronto para seu negócio, conheça a Maya!</blockquote>
+<blockquote>Uma landing page do Starbucks fictício, escolha seu milkshake!</blockquote>
 
 ## 📌 Como ver
 
@@ -14,16 +14,10 @@ O projeto está hospedado no Vercel:
 [Starbucks]()
 
 ## 👨‍👩‍👧‍👦 How to clone
-- Para realizar um clone raso, reduzirá a quantidade de histórico baixado.
-<blockquote>
-<code>git clone --depth 1 https://github.com/Talyslan/Starbucks-Landing-Page.git</code>
-</blockquote>
-<br>
-
-- Para realizar um clone comum.
-<blockquote>
-<code>git clone https://github.com/Talyslan/Starbucks-Landing-Page.git</code>
-</blockquote>
+- Para realizar um clone raso.
+```javascript
+git clone https://github.com/Talyslan/Starbucks-Landing-Page.git
+```
 
 ## 🚀 Technologies Used
 
