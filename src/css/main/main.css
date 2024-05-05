@@ -3,8 +3,29 @@ main {
 }
 
 .milkshakes-thumbs {
+    display: flex;
+    gap: 2em;
     position: absolute;
-    bottom: 0;
-    left: 35%;
-    
+    bottom: 5%;
+    right: 40%;
+}
+
+.milkshakes-thumbs img {
+    width: 72px;
+    transition: .5s ease-in-out;
+}
+
+.milkshakes-thumbs img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.milkshakes-thumbs #thumb1:hover {
+    filter: drop-shadow(0 0 1rem var(--green));
+}
+.milkshakes-thumbs #thumb2:hover {
+    filter: drop-shadow(0 0 1rem var(--red));
+}
+.milkshakes-thumbs #thumb3:hover {
+    filter: drop-shadow(0 0 1rem var(--pink));
 }

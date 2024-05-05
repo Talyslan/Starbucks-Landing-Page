@@ -2,14 +2,22 @@
     font-family: "SoDoSans";
     src: url('../font/SoDoSans-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: "SoDoSans-Black";
+    src: url('../font/SoDoSans-Black.ttf') format('truetype');
+}
 
 :root {
     --white: #FFFDFF;
     --black: #333234;
-    --green: #057046
+    --green: #057046;
+    --red: #DD5F7B;
+    --pink: #B83695;
 }
 
-body {
-    font-family: 'SoDoSans', Courier, monospace;
+body,
+button {
+    font-family: 'SoDoSans', Arial, monospace;
+    font-weight: normal;
     color: var(--black);
 }

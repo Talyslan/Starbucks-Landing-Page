@@ -1,0 +1,39 @@
+.left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    margin-left: 7em;
+    margin-bottom: 7em;
+}
+
+.left-side h1 {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.left-side #word-starbuck {
+    font-family: 'SoDoSans-Black', Arial, sans-serif;
+    color: var(--green);
+}
+
+.left-side p {
+    max-width: 600px;
+}
+
+.left-side button {
+    width: 8em;
+    padding: .5em .3em;
+    border-radius: 4em;
+    background: var(--green);
+    color: var(--white);
+    font-size: 1rem;
+    transition: 0.5s ease;
+}
+
+.left-side button:hover {
+    cursor: pointer;
+    transform: translate(10px, 0);
+    box-shadow: -12px 0 var(--pink);
+}

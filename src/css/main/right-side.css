@@ -1,8 +1,17 @@
+.right-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 .right-side .circle {
-    width: 600px;
-    height: 600px;
+    width: 1300px;
+    height: 1300px;
+    border-radius: 100%;
     background: var(--green);
     z-index: -1;
     position: fixed;
-    border-radius: 100%;
+    top: 22%;
+    right: -45%;
 }
+
