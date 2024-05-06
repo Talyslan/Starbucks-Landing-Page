@@ -1,0 +1,15 @@
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in {
+    position: absolute;
+    animation: fade-in-right 1.5s 1;
+}
